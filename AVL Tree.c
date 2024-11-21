@@ -19,9 +19,6 @@ AVLNode create_node(int data) {
 }
 
 
-
-
-
 // Insert a node and balance the tree
 AVLNode insert(AVLNode node, int data) {
    
