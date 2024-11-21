@@ -18,7 +18,6 @@ AVLNode create_node(int data) {
     return new_node;
 }
 
-
 // Insert a node and balance the tree
 AVLNode insert(AVLNode node, int data) {
    
@@ -40,7 +39,6 @@ AVLNode min_value_node(AVLNode node) {
         current = current->left;
     return current;
 }
-
 
 
 // In-order traversal to print the tree
